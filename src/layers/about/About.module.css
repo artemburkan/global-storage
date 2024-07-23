@@ -1,0 +1,34 @@
+.root {
+  /* background-color: #e6e6ea; */
+  /* background-color: #f4f4f4; */
+  background-color: #f0f2f3;
+  /* background-color: #e6e6ea; */
+}
+
+.header {
+  color: var(--c-black-00);
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+
+  &.bottom-gap {
+    margin-bottom: 1.6rem;
+  }
+}
+
+.content {
+  margin-bottom: 8rem;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  gap: 3.2rem;
+
+  padding: 1.6rem 0;
+
+  .item {
+    flex: 1 1 30rem;
+  }
+}

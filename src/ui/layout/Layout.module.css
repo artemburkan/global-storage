@@ -1,0 +1,11 @@
+.root {
+  max-width: var(--break-lg);
+  /* height: 100%; */
+  padding: 0 1.6rem;
+  margin: 0 auto;
+
+  &::after {
+    content: "";
+    display: table;
+  }
+}

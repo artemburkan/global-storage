@@ -1,0 +1,5 @@
+.root {
+  min-height: 100vh;
+  padding-top: var(--s-header);
+  background-color: var(--c-grey-01);
+}

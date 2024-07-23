@@ -1,0 +1,6 @@
+export * from "./header/Header"
+export * from "./main/Main"
+export * from "./about/About"
+export * from "./footer/Footer"
+export * from "./containers/Containers"
+export * from "./storage/Storage"

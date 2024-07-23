@@ -1,0 +1,7 @@
+.root {
+  padding: 3.2rem 0;
+  border-top: 1px solid #002a6814;
+  background-color: var(--c-grey-01);
+  color: #787878;
+  text-align: center;
+}

@@ -1,0 +1,75 @@
+:root {
+  --c-white-00: #ffffff;
+  --box-shadow-00: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  /* --box-shadow-01: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* --box-shadow-01: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  --box-shadow-01: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+  /* grey */
+  --с-grey-00: #f4f4f4;
+  --c-grey-01: #f0f2f3;
+
+  /* black */
+  --c-black-00: #141414;
+  --c-black-00-a-2: rgba(20 20 20 / 20%);
+}
+
+/* @media (prefers-color-scheme: light) {
+  
+} */
+
+:root {
+  --rs-primary-50: #f2faff;
+  --rs-primary-100: #cce9ff;
+  --rs-primary-200: #a6d7ff;
+  --rs-primary-300: #80c4ff;
+  --rs-primary-400: #59afff;
+  --rs-primary-500: #3498ff;
+  --rs-primary-600: #2589f5;
+  --rs-primary-700: #1675e0;
+  --rs-primary-800: #0a5dc2;
+  --rs-primary-900: #004299;
+
+  --rs-color-red: #f44336;
+  --rs-color-orange: #fa8900;
+  --rs-color-yellow: #ffb300;
+  --rs-color-green: #4caf50;
+  --rs-color-cyan: #00bcd4;
+  --rs-color-blue: #2196f3;
+  --rs-color-violet: #673ab7;
+  --rs-color-grey: #c3c2c2;
+  /* border: 1px solid #c3c2c2;
+  color: #141414;
+  font-weight: 600; */
+}
+
+:root {
+  --rs-btn-default-bg: var(--rs-gray-50);
+  --rs-btn-default-text: var(--rs-gray-800);
+  --rs-btn-default-hover-bg: var(--rs-gray-200);
+  --rs-btn-default-active-bg: var(--rs-gray-300);
+  --rs-btn-default-active-text: var(--rs-gray-900);
+  --rs-btn-default-disabled-bg: var(--rs-gray-50);
+  --rs-btn-default-disabled-text: var(--rs-gray-400);
+  --rs-btn-primary-bg: var(--rs-primary-500);
+  --rs-btn-primary-text: var(--rs-gray-0);
+  --rs-btn-primary-hover-bg: var(--rs-primary-600);
+  --rs-btn-primary-active-bg: var(--rs-primary-700);
+  --rs-btn-subtle-text: var(--rs-gray-800);
+  --rs-btn-subtle-hover-bg: var(--rs-gray-200);
+  --rs-btn-subtle-hover-text: var(--rs-gray-800);
+  --rs-btn-subtle-active-bg: var(--rs-gray-200);
+  --rs-btn-subtle-active-text: var(--rs-gray-900);
+  --rs-btn-subtle-disabled-text: var(--rs-gray-400);
+  --rs-btn-ghost-border: var(--rs-color-grey);
+  --rs-btn-ghost-text: var(--c-black-00);
+  --rs-btn-ghost-hover-border: var(--rs-color-grey);
+  --rs-btn-ghost-hover-text: var(--c-black-00);
+  --rs-btn-ghost-active-border: var(--rs-color-grey);
+  --rs-btn-ghost-active-text: var(--c-black-00);
+  --rs-btn-link-text: var(--rs-primary-700);
+  --rs-btn-link-hover-text: var(--rs-primary-800);
+  --rs-btn-link-active-text: var(--rs-primary-900);
+}
