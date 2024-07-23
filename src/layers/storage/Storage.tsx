@@ -21,17 +21,17 @@ export const Storage = () => {
               className="custom-slider"
             >
               <img
-                src="/containers/storage-00.jpg"
+                src="./containers/storage-00.jpg"
                 width="500"
                 height="500"
               />
               <img
-                src="/containers/storage-01.jpg"
+                src="./containers/storage-01.jpg"
                 width="500"
                 height="500"
               />
               <img
-                src="/containers/storage-02.jpg"
+                src="./containers/storage-02.jpg"
                 width="500"
                 height="500"
               />
