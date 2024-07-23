@@ -28,7 +28,7 @@ export const Containers = () => {
                   <div className={`${style.img} ${style.blue}`}>
                     <img
                       style={{ userSelect: "none" }}
-                      src="/containers/300/main-container-00.png"
+                      src="/global-storage/containers/300/main-container-00.png"
                       alt="контейнер"
                     />
                   </div>
@@ -57,7 +57,7 @@ export const Containers = () => {
                   <div className={`${style.img} ${style.red}`}>
                     <img
                       style={{ userSelect: "none" }}
-                      src="/containers/300/main-container-01.png"
+                      src="/global-storage/containers/300/main-container-01.png"
                       alt="контейнер"
                     />
                   </div>
