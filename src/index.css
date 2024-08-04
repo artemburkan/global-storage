@@ -120,7 +120,3 @@ ul {
   --animation-1: 0.3s ease-in-out;
   --animation-2: 0.5s ease-in-out;
 }
-
-.rs-modal-open .right-gap {
-  padding-right: 17px;
-}

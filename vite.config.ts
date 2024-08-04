@@ -5,7 +5,6 @@ import react from "@vitejs/plugin-react"
 import postcssNesting from "postcss-nesting"
 
 export default defineConfig({
-  base: "/global-storage/",
   resolve: {
     alias: {
       "~": path.resolve(__dirname, "./src/"),
