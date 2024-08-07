@@ -1,7 +1,7 @@
 import { Carousel } from "rsuite"
 import { Layout, Card } from "~/ui"
 import style from "./Storage.module.css"
-
+console.log("className={style.objectFit}", style)
 export const Storage = () => {
   return (
     <Layout>
@@ -18,22 +18,23 @@ export const Storage = () => {
           <Card hasBoxShadow>
             <Carousel
               autoplay
-              className="custom-slider"
+              className={style.slider}
+              shape="bar"
             >
               <img
+                height="250"
                 src="/global-storage/containers/storage-00.jpg"
-                width="500"
-                height="500"
+                className={style.img}
               />
               <img
+                height="250"
                 src="/global-storage/containers/storage-01.jpg"
-                width="500"
-                height="500"
+                className={style.img}
               />
               <img
+                height="250"
                 src="/global-storage/containers/storage-02.jpg"
-                width="500"
-                height="500"
+                className={style.img}
               />
             </Carousel>
           </Card>

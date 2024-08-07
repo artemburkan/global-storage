@@ -21,7 +21,7 @@ export const Containers = () => {
           <header className={`${style.header} ${style["bottom-gap"]}`}>
             Контейнеры
           </header>
-          <div className={style.container}>
+          <div className={style.row}>
             <div className={style.item}>
               <Card>
                 <div className={style.container}>

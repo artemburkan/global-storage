@@ -1,10 +1,17 @@
 .root {
   height: 56rem;
+
+  @media (max-width: 768px) {
+    height: 48rem;
+  }
+
+  @media (max-width: 540px) {
+    height: 40rem;
+  }
+
   color: var(--c-white-00);
 
   font-weight: 900;
-  padding-top: 3.2rem;
-  padding-bottom: 3.2rem;
 
   &.bottom-gap {
     margin-bottom: 4rem;
@@ -19,7 +26,8 @@
   overflow: hidden;
   background-color: #6596ff;
   box-shadow: var(--box-shadow-00);
-  border-radius: 3.2rem;
+  border-bottom-left-radius: 3.2rem;
+  border-bottom-right-radius: 3.2rem;
   overflow: hidden;
 
   color: var(--c-white-00);
@@ -31,4 +39,8 @@
   font-size: 6.4rem;
   text-shadow: var(--c-black-00) 0.3rem 0.3rem 0.5rem;
   user-select: none;
+
+  @media (max-width: 540px) {
+    font-size: 4.2rem;
+  }
 }

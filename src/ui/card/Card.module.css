@@ -1,6 +1,11 @@
 .root {
   height: 100%;
   padding: 2.4rem;
+
+  @media (max-width: 768px) {
+    padding: 1.6rem;
+  }
+
   border-radius: 1.6rem;
   background-color: white;
   color: var(--c-black-00);
