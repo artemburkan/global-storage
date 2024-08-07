@@ -1,5 +1,5 @@
 import { Icon } from "@rsuite/icons"
-import { Peoples, DocPass, Coupon, Time, Tools } from "@rsuite/icons"
+import { DocPass, Coupon, Time, Tools } from "@rsuite/icons"
 import { Layout, Card } from "~/ui"
 import style from "./About.module.css"
 
