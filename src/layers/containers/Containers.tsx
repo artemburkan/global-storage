@@ -23,7 +23,7 @@ export const Containers = () => {
           </header>
           <div className={style.row}>
             <div className={style.item}>
-              <Card>
+              <div>
                 <div className={style.container}>
                   <div className={`${style.img} ${style.blue}`}>
                     <img
@@ -49,10 +49,10 @@ export const Containers = () => {
                     </Button>
                   </div>
                 </div>
-              </Card>
+              </div>
             </div>
             <div className={style.item}>
-              <Card>
+              <div>
                 <div className={style.container}>
                   <div className={`${style.img} ${style.red}`}>
                     <img
@@ -78,7 +78,7 @@ export const Containers = () => {
                     </Button>
                   </div>
                 </div>
-              </Card>
+              </div>
             </div>
           </div>
         </Card>

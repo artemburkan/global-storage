@@ -2,7 +2,7 @@
   color: var(--c-black-00);
 
   &.bottom-gap {
-    margin-bottom: 9.6rem;
+    margin-bottom: 8rem;
   }
 }
 

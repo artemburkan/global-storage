@@ -1,8 +1,11 @@
 .root {
   max-width: var(--break-lg);
-  /* height: 100%; */
   padding: 0 1.6rem;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding: 0 0.8rem;
+  }
 
   &::after {
     content: "";

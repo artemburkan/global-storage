@@ -1,19 +1,22 @@
 import { Carousel } from "rsuite"
 import { Layout, Card } from "~/ui"
 import style from "./Storage.module.css"
-console.log("className={style.objectFit}", style)
+
 export const Storage = () => {
   return (
     <Layout>
       <section className={`${style.root} ${style["bottom-gap"]}`}>
         <div className={style.container}>
           <div className={style["address-item"]}>
-            <header className={`${style.header} ${style["bottom-gap"]}`}>
-              Склад и Аренда
-            </header>
-            <div>
-              Аренда контейнеров под склад <br /> ул. Трудкоммуны, 17, участок 8
-            </div>
+            <Card hasBoxShadow>
+              <header className={`${style.header} ${style["bottom-gap"]}`}>
+                Склад и Аренда
+              </header>
+              <div>
+                Аренда контейнеров под склад <br /> ул. Трудкоммуны, 17, участок
+                8
+              </div>
+            </Card>
           </div>
           <Card hasBoxShadow>
             <Carousel
