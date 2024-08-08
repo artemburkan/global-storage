@@ -34,10 +34,10 @@ export const Containers = () => {
                   </div>
                   <div className={style.description}>
                     <div>
-                      <header className={style.title}>40 футов HC</header>
+                      <header className={style.title}>40 футов DC</header>
                       <div>
-                        Высота 2.9м. Есть возможность арендовать половину
-                        контейнера.
+                        Высота 2.6 м - стандартные 40 футовые контейнеры. Есть
+                        возможность арендовать половину контейнера.
                       </div>
                     </div>
                     <Button
@@ -65,8 +65,8 @@ export const Containers = () => {
                     <div>
                       <header className={style.title}>40 футов HC</header>
                       <div>
-                        Высота 2.9м. Есть возможность арендовать половину
-                        контейнера.
+                        Высота 2.9 м - высокие 40 футовые контейнеры. Есть
+                        возможность арендовать половину контейнера.
                       </div>
                     </div>
                     <Button
