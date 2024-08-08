@@ -35,9 +35,7 @@
     flex: 1 1 30rem;
 
     @media (max-width: 540px) {
-      flex-shrink: none;
-      flex-basis: none;
-      flex-flow: none;
+      flex-basis: auto;
     }
   }
 }
